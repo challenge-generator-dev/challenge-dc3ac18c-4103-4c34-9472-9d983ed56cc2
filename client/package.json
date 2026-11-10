@@ -1,0 +1,30 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "axios": "1.6.8",
+    "react": "19.0.0-beta-0b1d4d3d9-20240815",
+    "react-dom": "19.0.0-beta-0b1d4d3d9-20240815",
+    "react-router-dom": "^6.22.0",
+    "react-error-boundary": "4.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "@types/react-dom": "18.2.25",
+    "@vitejs/plugin-react": "4.2.1",
+    "autoprefixer": "10.4.19",
+    "postcss": "8.4.38",
+    "tailwindcss": "3.4.3",
+    "typescript": "5.7.2",
+    "vite": "5.2.10"
+  }
+}
